@@ -20,7 +20,7 @@
     left: 50%;
     width: 80%;
     transform: translate(-50%, -25%);
-    background-color: #dcdcdc;
+    background-color: rgba(255, 255, 255, 0.5);
     color: Black;
     padding-left: 20px;
     padding-right: 20px;

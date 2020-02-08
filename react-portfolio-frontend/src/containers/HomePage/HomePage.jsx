@@ -6,7 +6,7 @@ import TextSlider from '../TextSlider/TextSlider';
 import  WordGuessGame from '../../components/PortfolioItems/wordGuessGame';
 import TriviaGame   from '../../components/PortfolioItems/TriviaGame';
 import ClimateFeel  from '../../components/PortfolioItems/ClimateFeel';
-
+import JWTAuth from "../../components/PortfolioItems/JWT-Auth-BoilerPlate";
 //import styles
 import './style.css';
 
@@ -22,6 +22,7 @@ class HomePage extends Component {
                     <WordGuessGame/>
                     <TriviaGame/>
                     <ClimateFeel/>
+                    <JWTAuth/>
                 </div>
 
             </div>

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 
 const textArray = [
-    "Teaching teams to innovate",
-    "Automation solutions for small businesses",
-    "fast technology solutions for business",
-    "Full stack web developer"
+    "Helping teams innovate",
+    "Save money with automation",
+    "Fast technology solutions for business",
+    "Bringing seamless web technology to everyone",
+    "Full stack web development"
 ];
 
 class TextSlider extends Component {
@@ -31,7 +32,7 @@ class TextSlider extends Component {
 
     render() {
         return (
-            < div >
+            <div>
                 <h1>{textArray[this.state.textNumber]}</h1>
             </div>
              );
