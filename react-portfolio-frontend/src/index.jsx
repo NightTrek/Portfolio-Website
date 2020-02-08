@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 //importing components
 import AppWithNav from "./components/AppWithNav";
-import Welcome from "./containers/Welcome";
+import HomePage from "./containers/HomePage/HomePage";
 
 
 ReactDOM.render("", document.getElementById('root'));
@@ -15,7 +15,7 @@ ReactDOM.render("", document.getElementById('root'));
 ReactDOM.render(
     <Router>
         <AppWithNav>
-            <Route exact path='/' component={Welcome}/>
+            <Route exact path='/' component={HomePage}/>
             {/*  <Route exact path='/Counter' component={Counter}/>*/}
             {/*<Route exact path='/auth/success'component={PostAuth}/>*/}
             {/*<Route exact path='/map'component={Fmap}/>*/}

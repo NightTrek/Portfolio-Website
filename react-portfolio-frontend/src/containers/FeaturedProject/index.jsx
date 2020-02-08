@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 
 
-class Welcome extends Component {
 
+
+class Index extends Component {
     render() {
         return (
             <div>
-                <h1>Innovation you can count on</h1>
+
             </div>
         );
     }
 }
 
-export default Welcome;
+export default Index;

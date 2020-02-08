@@ -8,15 +8,15 @@ class NavBarHeader extends Component {
         return (
             <div className={"NavBarContainer"}>
                 <div className={"NavBarElement"}>
-                    <h3>About</h3>
+                    <h5>Home</h5>
                 </div>
                 <div className={"NavBarElement"}>
-                    <h3>Contact</h3>
+                    <h5>Contact</h5>
                 </div>
                 <div className={"NavBarElement"}>
-                    <h3>Blog</h3>
+                    <h5>Blog</h5>
                 </div>
-                <div >
+                <div>
 
                 </div>
             </div>
