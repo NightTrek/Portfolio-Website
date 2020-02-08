@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import NavbarHeader from './NavBarHeader';
+import NavbarHeader from './NavBarHeader/NavBarHeader';
 
 
 export default ({ children  }) => {
