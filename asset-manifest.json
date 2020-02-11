@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.769a7f8c.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.6ff459a6.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.6ff459a6.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.55081b39.js",
+    "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.55081b39.js.map",
+    "static/js/2.59672f36.chunk.js": "/Portfolio-Website/static/js/2.59672f36.chunk.js",
+    "static/js/2.59672f36.chunk.js.map": "/Portfolio-Website/static/js/2.59672f36.chunk.js.map",
+    "index.html": "/Portfolio-Website/index.html",
+    "precache-manifest.e2aae04689b8e26bd9b5219f2b85a45e.js": "/Portfolio-Website/precache-manifest.e2aae04689b8e26bd9b5219f2b85a45e.js",
+    "service-worker.js": "/Portfolio-Website/service-worker.js",
+    "static/css/main.769a7f8c.chunk.css.map": "/Portfolio-Website/static/css/main.769a7f8c.chunk.css.map",
+    "static/js/2.59672f36.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.59672f36.chunk.js.LICENSE.txt",
+    "static/media/ClimateFeel.png": "/Portfolio-Website/static/media/ClimateFeel.63cbadc6.png",
+    "static/media/JWT-Demo.png": "/Portfolio-Website/static/media/JWT-Demo.fb8ddac7.png",
+    "static/media/TriviaGame1.png": "/Portfolio-Website/static/media/TriviaGame1.646efd69.png",
+    "static/media/wordGuessGame.png": "/Portfolio-Website/static/media/wordGuessGame.a9381096.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55081b39.js",
+    "static/js/2.59672f36.chunk.js",
+    "static/css/main.769a7f8c.chunk.css",
+    "static/js/main.6ff459a6.chunk.js"
+  ]
+}
