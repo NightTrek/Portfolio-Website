@@ -1,0 +1,16 @@
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textSlider{
+    margin:0 auto;
+    margin-top: 50px;
+}
