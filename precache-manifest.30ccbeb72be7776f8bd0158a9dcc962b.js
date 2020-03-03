@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3f2291f2453197a7cfdd4126bfb8ea9",
+    "revision": "c46f66f1c6f1eed7647432900f1973b5",
     "url": "/Portfolio-Website/index.html"
   },
   {
-    "revision": "0e96550f7eb2f0fdba55",
-    "url": "/Portfolio-Website/static/css/main.7edad4af.chunk.css"
+    "revision": "12eea33ec496961ada69",
+    "url": "/Portfolio-Website/static/css/main.e406aaf2.chunk.css"
   },
   {
-    "revision": "101126193f1041e8249f",
-    "url": "/Portfolio-Website/static/js/2.c7ca7814.chunk.js"
+    "revision": "1ac46c120791a15812f8",
+    "url": "/Portfolio-Website/static/js/2.aa4be5fa.chunk.js"
   },
   {
     "revision": "21ced859ea2b2d6b856d461ad6c2afed",
-    "url": "/Portfolio-Website/static/js/2.c7ca7814.chunk.js.LICENSE.txt"
+    "url": "/Portfolio-Website/static/js/2.aa4be5fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e96550f7eb2f0fdba55",
-    "url": "/Portfolio-Website/static/js/main.563ca5f6.chunk.js"
+    "revision": "12eea33ec496961ada69",
+    "url": "/Portfolio-Website/static/js/main.08de1a0e.chunk.js"
   },
   {
     "revision": "cc0648379e07a6d5b11b",
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website/static/media/TriviaGame1.646efd69.png"
   },
   {
-    "revision": "a9381096476aae026e4331c468aaebb5",
-    "url": "/Portfolio-Website/static/media/wordGuessGame.a9381096.png"
+    "revision": "d40ba4e3f25cc82a9ac3f001f6ea3743",
+    "url": "/Portfolio-Website/static/media/wordGuessGame2.d40ba4e3.png"
   }
 ]);
