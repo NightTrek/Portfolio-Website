@@ -8,13 +8,13 @@ class NavBarHeader extends Component {
         return (
             <div className={"NavBarContainer"}>
                 <div className={"NavBarElement"}>
-                    <h5>Home</h5>
+                    <a href={"#Home"}><h5>Home</h5></a>
                 </div>
                 <div className={"NavBarElement"}>
-                    <h5>Contact</h5>
+                    <a href={"#ContactPage"}><h5>Contact</h5></a>
                 </div>
                 <div className={"NavBarElement"}>
-                    <h5>Blog</h5>
+                    <h5>Blog (coming Soon)</h5>
                 </div>
                 <div>
 

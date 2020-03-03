@@ -1,24 +1,22 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 
-import "../HomePage/style.css";
-import "style.css";
+import "../../containers/HomePage/style.css";
+import "./style.css";
 
-class ContactPage extends Component {
-    constructor(props) {
-        super(props);
 
-    }
-
-    render() {
+const ContactPage = () =>{
         return (
-            <div className={""}>
-
+            <div className={"flexRow"}>
+                <div className={"flexColumn contactPanel"}>
+                        <h2>I am actively Looking for opportunities So feel free to contact me Via the links below</h2>
+                        <h2>Feel free to email me at <span className={"email"}>Daniels@dual4t.com</span> or find me on social media</h2>
+                        <a href={"https://github.com/ToneDef00"}><h2> Check out my Github </h2></a>
+                        <a href={"https://www.linkedin.com/in/daniel-steigman-bb652186/"}><h2> Connect with me on Linkdin </h2></a>
+                </div>
             </div>
         );
-    }
-}
+};
 
-ContactPage.propTypes = {};
 
 export default ContactPage;

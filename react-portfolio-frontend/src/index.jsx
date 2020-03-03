@@ -16,10 +16,6 @@ ReactDOM.render(
     <Router>
         <AppWithNav>
             <Route exact path='/' component={HomePage}/>
-            {/*  <Route exact path='/Counter' component={Counter}/>*/}
-            {/*<Route exact path='/auth/success'component={PostAuth}/>*/}
-            {/*<Route exact path='/map'component={Fmap}/>*/}
-            {/*<Route exact path='/fmap' component={Fmap}/>*/}
         </AppWithNav>
     </Router>
     , document.querySelector('#root'));
