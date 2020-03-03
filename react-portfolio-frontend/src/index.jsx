@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+// import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 //importing components
@@ -13,9 +13,10 @@ ReactDOM.render("", document.getElementById('root'));
 
 
 ReactDOM.render(
-    <Router>
+
         <AppWithNav>
-            <Route exact path='/' component={HomePage}/>
+            {/*<Route exact path='/' component={HomePage}/>*/}
+            <HomePage/>
         </AppWithNav>
-    </Router>
+
     , document.querySelector('#root'));
