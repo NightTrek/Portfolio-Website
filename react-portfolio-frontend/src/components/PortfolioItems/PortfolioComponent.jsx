@@ -12,7 +12,7 @@ const PortfolioComponent = (props) => {
             <div className={"words"}>
                 <h5>{props.projectName}</h5>
                 <p>{props.porjectText}</p>
-                <a href={props.buttonLink}><button>{props.buttonTxt}</button></a>
+                <a href={props.buttonLink}><button className={"pButton"}>{props.buttonTxt}</button></a>
             </div>
         </a>
     </div>
