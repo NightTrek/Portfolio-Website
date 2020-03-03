@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "./style.css";
 
 const textArray = [
     "Helping teams innovate",
@@ -33,7 +34,7 @@ class TextSlider extends Component {
     render() {
         return (
             <div>
-                <h1>{textArray[this.state.textNumber]}</h1>
+                <h1 className={"sliderText"}>{textArray[this.state.textNumber]}</h1>
             </div>
              );
     }
