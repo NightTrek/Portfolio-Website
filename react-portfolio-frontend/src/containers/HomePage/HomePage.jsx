@@ -14,6 +14,10 @@ import ContactPage from "../../components/ContactPage/ContactPage";
 //import styles
 import './style.css';
 import Flowerpatch from "../../components/PortfolioItems/flowerpatch";
+import PortfolioComponent from "../../components/PortfolioItems/PortfolioComponent";
+
+//import images
+import bsPortfolio from "../../img/BSPortfolio.png";
 
 
 class HomePage extends Component {
@@ -30,6 +34,9 @@ class HomePage extends Component {
                     <ClimateFeel/>
                     <JWTAuth/>
                     <Flowerpatch/>
+                    <PortfolioComponent projectURL={"https://tonedef00.github.io/bootstrap-portfolio/"} imgsrc={bsPortfolio}
+                                        imgalt={"bootstrap Porfolio"} projectName={"Bootstrap portfolio"} porjectText={"A basic Portfolio HTML page built using bootstrap second portfolio built"}
+                                        buttonLink={"https://github.com/ToneDef00/bootstrap-portfolio"} buttonTxt={"Github"}/>
                 </div>
                 <div className={"contactPage flexRow"}>
                     <h1 className={"contactHeader"}>Lets Talk</h1>

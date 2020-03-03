@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b226b148-0ff4-48f2-a5e8-302618b31427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/components/ContactPage/ContactPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/components/ContactPage/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/components/PortfolioItems/flowerpatch.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/TextSlider/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/components/PortfolioItems/PortfolioComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/components/NavBarHeader/NavBarHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/components/NavBarHeader/NavBarHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/components/NavBarHeader/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/components/NavBarHeader/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/components/PortfolioItems/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/components/PortfolioItems/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/HomePage/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/HomePage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/HomePage/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/TextSlider/TextSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/TextSlider/TextSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/TextSlider/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-portfolio-frontend/src/containers/TextSlider/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +34,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-portfolio-frontend/src/components/PortfolioItems" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-portfolio-frontend/src/components/PortfolioItems" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/react-portfolio-frontend/src/components" />
     </key>
@@ -59,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583185492874</updated>
-      <workItem from="1583185494000" duration="5305000" />
+      <workItem from="1583185494000" duration="7490000" />
     </task>
     <servers />
   </component>

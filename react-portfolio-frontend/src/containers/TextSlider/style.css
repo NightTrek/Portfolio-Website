@@ -1,3 +1,10 @@
 .sliderText{
-    font-size:64px
+    font-size:64px;
+    padding:8px
+}
+
+@media only screen and (max-width: 450px){
+    .sliderText{
+        font-size:32px;
+    }
 }
