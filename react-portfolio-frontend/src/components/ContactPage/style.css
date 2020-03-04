@@ -1,8 +1,23 @@
 .contactPanel{
-
+    margin-bottom: 24px;
 }
 
 .email{
     font-weight:bolder;
     font-size:32px;
+}
+
+
+.socialMediaButton{
+    border: #d0d0d0 solid 2px;
+    padding:8px;
+}
+
+.socialMediaButton:hover{
+    border: #b6b6b6 solid 2px;
+    box-shadow: 2px 2px #b6b6b6;
+}
+
+.socialimg{
+    width:128px;
 }

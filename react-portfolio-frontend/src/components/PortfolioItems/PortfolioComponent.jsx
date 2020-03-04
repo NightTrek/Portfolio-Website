@@ -9,12 +9,12 @@ const PortfolioComponent = (props) => {
     <div className={"card"}>
         <a href={props.projectURL} >
             <img src={props.imgsrc} alt={props.imgalt} width={"100%"}/>
+        </a>
             <div className={"words"}>
                 <h5>{props.projectName}</h5>
                 <p>{props.porjectText}</p>
                 <a href={props.buttonLink}><button className={"pButton"}>{props.buttonTxt}</button></a>
             </div>
-        </a>
     </div>
   );
 };

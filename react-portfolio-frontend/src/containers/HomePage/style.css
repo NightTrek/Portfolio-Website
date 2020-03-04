@@ -11,6 +11,11 @@
     flex-wrap: wrap;
 }
 
+.portfolio{
+    padding-bottom: 48px;
+    border-bottom: black solid 2px;
+}
+
 .textSlider{
     margin:64px auto 48px;
 

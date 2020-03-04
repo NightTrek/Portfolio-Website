@@ -14,6 +14,9 @@ class NavBarHeader extends Component {
                     <a href={"#ContactPage"}><h5>Contact</h5></a>
                 </div>
                 <div className={"NavBarElement"}>
+                    <a href={"#photogallery"}><h5>Photos</h5></a>
+                </div>
+                <div className={"NavBarElement"}>
                     <h5>Blog (coming Soon)</h5>
                 </div>
                 <div>

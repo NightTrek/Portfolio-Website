@@ -30,6 +30,9 @@
 .card:hover .words{
     opacity: 1;
 }
+.card:hover{
+    box-shadow: 3px 3px #bebebe;
+}
 
 
 .pButton {

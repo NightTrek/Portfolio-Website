@@ -1,0 +1,32 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.galleryPage{
+    margin-top:48px;
+}
+
+.galleryHeader{
+    text-decoration: underline;
+}
+
+.whyIDoPhotos{
+    width: 50%;
+}
+
+.galleryCenter{
+    margin:0 auto;
+}
+
+.galleryContainer{
+    /*border:black solid 2px;*/
+    /*border-radius: 12px;*/
+    /*width: 800px;*/
+    padding: 24px;
+    margin:96px;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .galleryContainer{
+        margin:24px;
+    }
+}

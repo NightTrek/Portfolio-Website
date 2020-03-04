@@ -27,7 +27,7 @@ class TextSlider extends Component {
         }, 3000);
     }
 
-    componentDidUnmount() {
+    componentWillUnmount() {
         clearInterval(this.timeout);
     }
 

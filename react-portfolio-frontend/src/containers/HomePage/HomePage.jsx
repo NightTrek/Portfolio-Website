@@ -18,6 +18,7 @@ import WordGuessGame from "../../img/wordGuessGame2.png";
 import ClimateFeel from "../../img/ClimateFeel.png";
 import TriviaGame from "../../img/TriviaGame1.png";
 import JWTIMG from "../../img/JWT-Demo.png";
+import Gallery from "../imageGallery/ImageGallery";
 class HomePage extends Component {
 
     render() {
@@ -26,7 +27,7 @@ class HomePage extends Component {
                 <div className={"textSlider"} id={"Home"}>
                     <TextSlider/>
                 </div>
-                <div className={"flexRow"}>
+                <div className={"flexRow portfolio"}>
                     <PortfolioComponent projectURL={"https://flowerpatch.app/"} imgsrc={FlowerPatch} imgalt={"FlowerPatch Game"}
                                         projectName={"FlowerPatch"} porjectText={"Flowerpatch is a peaceful Ethereum indie game about farming cannabis."}
                                         buttonLink={"https://flowerpatch.app/game"} buttonTxt={"Try it now"}/>
@@ -45,6 +46,9 @@ class HomePage extends Component {
                     <PortfolioComponent projectURL={"https://tonedef00.github.io/bootstrap-portfolio/"} imgsrc={bsPortfolio}
                                         imgalt={"bootstrap Porfolio"} projectName={"Bootstrap portfolio"} porjectText={"A basic Portfolio HTML page built using bootstrap second portfolio built"}
                                         buttonLink={"https://github.com/ToneDef00/bootstrap-portfolio"} buttonTxt={"Github"}/>
+                </div>
+                <div>
+                    <Gallery/>
                 </div>
                 <div className={"contactPage flexRow"} id={"ContactPage"}>
                     <h1 className={"contactHeader"}>Lets Talk</h1>
