@@ -43,12 +43,16 @@ const images = [
         thumbnail: M,
     },
     {
-        original: a,
-        thumbnail: A,
-    },
-    {
         original: b,
         thumbnail: B,
+    },
+    {
+        original: j,
+        thumbnail: J,
+    },
+    {
+        original: a,
+        thumbnail: A,
     },
     {
         original: c,
@@ -78,10 +82,7 @@ const images = [
         original: i,
         thumbnail: I,
     },
-    {
-        original: j,
-        thumbnail: J,
-    },
+
     {
         original: k,
         thumbnail: K,
@@ -101,22 +102,20 @@ class Gallery extends Component {
     render() {
         return (
             <div className={"flexColumn galleryPage"}>
-                <div className={"flexRow"}>
-                    <div>
+
+                    <div className={"galleryCenter"}>
                         <h2 className={"galleryHeader"}> A passion for art and photography</h2>
                     </div>
-                    <div className={"whyIDoPhotos"}>
+                    <div className={"whyIDoPhotos galleryCenter"}>
                         <p>
                             Ive been luck enough to spend a lot of time traveling and exploring. I like to share these experiences with my photography hobby.
                             Not everyone gets to stand on a 10,000 year old glacier or stay up all night in the desert. With some some practice and patients
-                            i can share these experiences so that others may benefit. I hope you enjoy some of my work.
+                            I can share these experiences so that others may benefit. I hope you enjoy some of my work.
                         </p>
                     </div>
-                </div>
-                <div className={"galleryCenter"} id={"photogallery"}>
-                    <div className={"galleryContainer"}>
+
+                <div className={"galleryContainer"} id={"photogallery"}>
                         <ImageGallery items={images}/>
-                    </div>
                 </div>
             </div>
         );

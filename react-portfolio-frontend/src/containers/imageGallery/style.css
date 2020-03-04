@@ -14,6 +14,7 @@
 
 .galleryCenter{
     margin:0 auto;
+    padding:24px;
 }
 
 .galleryContainer{
@@ -29,4 +30,16 @@
     .galleryContainer{
         margin:24px;
     }
+
 }
+
+@media only screen and (min-width: 1000px){
+    .image-gallery-image{
+        height:calc(100vh - 160px);
+    }
+
+}
+/*img {*/
+/*    height:300px;*/
+/*}*/
+

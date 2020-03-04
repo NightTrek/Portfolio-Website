@@ -32,7 +32,7 @@ class HomePage extends Component {
                                         projectName={"FlowerPatch"} porjectText={"Flowerpatch is a peaceful Ethereum indie game about farming cannabis."}
                                         buttonLink={"https://flowerpatch.app/game"} buttonTxt={"Try it now"}/>
                     <PortfolioComponent projectURL={"https://tonedef00.github.io/Word-guess-game/"} imgsrc={WordGuessGame} imgalt={"Word guess game"}
-                                        projectName={"Word Guess Game"} porjectText={"A simple vanilla javascript game where the goal is to guess the wordg"}
+                                        projectName={"Word Guess Game"} porjectText={"My first JS project. A simple vanilla javascript game where the goal is to guess the word"}
                                         buttonLink={"https://github.com/ToneDef00/Word-guess-game"} buttonTxt={"Github"}/>
                     <PortfolioComponent projectURL={"https://tonedef00.github.io/Climate-Feel-App/"} imgsrc={ClimateFeel} imgalt={"Climate Feel"}
                                         projectName={"Climate Feel"} porjectText={"A website showing you real weather data over the past 20 years"}
