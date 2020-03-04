@@ -44,7 +44,7 @@ class HomePage extends Component {
                                         projectName={"React-Redux Authentication"} porjectText={"A boiler plate which allows for rapid deployment of frontend applications which require authentication"}
                                         buttonLink={"https://github.com/ToneDef00/React-JWT-Auth-MySQL-Boilerplate"} buttonTxt={"Github"}/>
                     <PortfolioComponent projectURL={"https://tonedef00.github.io/bootstrap-portfolio/"} imgsrc={bsPortfolio}
-                                        imgalt={"bootstrap Porfolio"} projectName={"Bootstrap portfolio"} porjectText={"A basic Portfolio HTML page built using bootstrap second portfolio built"}
+                                        imgalt={"bootstrap Porfolio"} projectName={"Bootstrap portfolio"} porjectText={"A basic Portfolio HTML page built using bootstrap. The second portfolio built I ever built"}
                                         buttonLink={"https://github.com/ToneDef00/bootstrap-portfolio"} buttonTxt={"Github"}/>
                 </div>
                 <div>
