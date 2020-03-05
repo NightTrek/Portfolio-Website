@@ -39,5 +39,6 @@ class TextSlider extends Component {
              );
     }
 }
+//
 
 export default TextSlider;

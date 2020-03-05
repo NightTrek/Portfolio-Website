@@ -19,6 +19,7 @@ import ClimateFeel from "../../img/ClimateFeel.png";
 import TriviaGame from "../../img/TriviaGame1.png";
 import JWTIMG from "../../img/JWT-Demo.png";
 import Gallery from "../imageGallery/ImageGallery";
+import AboutMe from "../AboutMe/AboutMe";
 class HomePage extends Component {
 
     render() {
@@ -47,6 +48,7 @@ class HomePage extends Component {
                                         imgalt={"bootstrap Porfolio"} projectName={"Bootstrap portfolio"} porjectText={"A basic Portfolio HTML page built using bootstrap. The second portfolio built I ever built"}
                                         buttonLink={"https://github.com/ToneDef00/bootstrap-portfolio"} buttonTxt={"Github"}/>
                 </div>
+                <AboutMe/>
                 <div>
                     <Gallery/>
                 </div>

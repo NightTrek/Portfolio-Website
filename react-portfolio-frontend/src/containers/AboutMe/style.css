@@ -1,0 +1,54 @@
+
+.aboutMePage{
+    margin-top:64px;
+    width: 100vw;
+    background-color: #5fc68e;
+}
+
+.aboutMeContent{
+    margin: 64px auto;
+    padding:16px;
+}
+
+.aboutRow{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top:32px;
+}
+.aboutContent{
+    padding-top:32px;
+    background: radial-gradient(ellipse, rgba(2,0,36,1) 10%, rgba(95,198,142,1) 68%);
+    height: 400px;
+    margin-right:32px;
+}
+.aboutText{
+    padding-top:32px;
+    width: 600px;
+    line-height: 1.6;
+}
+
+.myface{
+    margin:64px auto;
+    width: 300px;
+    transform: rotate(90deg);
+    border-radius: 50px;
+}
+
+
+.skillsButton{
+    margin:0 auto;
+}
+
+.skillsTable{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.skillCatagory{
+    padding: 12px;
+    border-right: solid #7f7f7f 1px;
+}
