@@ -11,7 +11,9 @@ class Skills extends Component {
 
         this.state = {
             showSkills: true,
-            skillArrayIndex:0
+            skillArrayIndex:0,
+            skillindex1:0,
+            skillindex2:1
         };
 
         this.showSkills = this.showSkills.bind(this);
@@ -26,13 +28,20 @@ class Skills extends Component {
 
     nextSkill(){
         let cstate = this.state;
-        if(this.state.skillArrayIndex===3){
-            cstate.skillArrayIndex=0;
+        if(this.state.skillindex1===3){
+            cstate.skillindex1=0;
         }
         else{
-            cstate.skillArrayIndex++;
+            cstate.skillindex1++;
+        }
+        if(this.state.skillindex2===3){
+            cstate.skillindex2=0;
+        }
+        else{
+            cstate.skillindex2++;
         }
         this.setState(cstate);
+
     }
 
 
@@ -137,13 +146,14 @@ class Skills extends Component {
         return (
             <div className={"flexRow skillPage"}>
                 {/*<div className={"flexColumn"}>*/}
-                    {/*TODO enter the matrix button that opens a canvas with my skills dropping from the top*/}
+
                     {this.state.showSkills ? (
                         <div className={"flexRow skillsContainer"}>
                             <div className={"greenHalf"}></div>
                             <div className={"skillsBox"}>
                                 <div className={"skillsTable"}>
-                                    {skillsArray[this.state.skillArrayIndex]}
+                                    {skillsArray[this.state.skillindex1]}
+                                    {skillsArray[this.state.skillindex2]}
                                 </div>
 
                                 <button onClick={this.showSkills}> Show skills</button>
