@@ -50,7 +50,7 @@ class HomePage extends Component {
                                         buttonLink={"https://github.com/ToneDef00/bootstrap-portfolio"} buttonTxt={"Github"}/>
                 </div>
                 <AboutMe/>
-                <Skills/>
+                {/*<Skills/>*/}
                 <div>
                     <Gallery/>
                 </div>

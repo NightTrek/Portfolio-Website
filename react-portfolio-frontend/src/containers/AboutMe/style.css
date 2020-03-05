@@ -6,6 +6,9 @@
     position: relative;
 }
 
+.aboutHeader{
+    padding:16px;
+}
 .aboutMeContent{
     margin: 64px auto;
     padding:16px;
@@ -25,7 +28,8 @@
     margin-right:32px;
 }
 .aboutText{
-    padding-top:32px;
+    /*padding-top:32px;*/
+    padding:16px;
     width: 600px;
     line-height: 1.6;
 }

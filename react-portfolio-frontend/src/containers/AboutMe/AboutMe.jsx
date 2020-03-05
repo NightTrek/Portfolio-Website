@@ -22,8 +22,11 @@ class AboutMe extends Component {
                 <div className={"flexColumn aboutMeContent"}>
                     <div className={"flexRow"}>
                         <div className={"flexColumn"}>
-                            <h2> Hello my name is Daniel. I am a full stack Developer</h2>
-                            <h2>My passion is solving weird problems by making functional art.</h2>
+                            <div className={"aboutHeader"}>
+                                <h2 > Hello my name is Daniel. I am a full stack Developer</h2>
+                                <h2 >My passion is solving weird problems by making functional art.</h2>
+                            </div>
+
                         </div>
                     </div>
                     <div className={"aboutRow"}>
