@@ -3,6 +3,7 @@
     margin-top:64px;
     width: 100vw;
     background-color: #5fc68e;
+    position: relative;
 }
 
 .aboutMeContent{
@@ -37,18 +38,3 @@
 }
 
 
-.skillsButton{
-    margin:0 auto;
-}
-
-.skillsTable{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-.skillCatagory{
-    padding: 12px;
-    border-right: solid #7f7f7f 1px;
-}

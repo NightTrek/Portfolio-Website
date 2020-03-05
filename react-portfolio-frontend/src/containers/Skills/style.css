@@ -1,0 +1,64 @@
+.skillPage{
+    width: 100vw;
+}
+
+.skillsContainer{
+    margin-bottom: 256px;
+    position:relative;
+    width: 100vw;
+}
+.greenHalf{
+    width: 100vw;
+    height: 384px;
+    background-color: #5fc68e;
+}
+
+.skillsButton{
+    margin:0 auto;
+}
+
+.skillsBox{
+    background-color: white;
+    border-radius: 20px;
+    margin:24px;
+    position: absolute;
+    left:45vw;
+    top:0;
+    border:solid black 2px;
+}
+
+
+.skillsTable{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+
+
+.skillCatagory{
+    padding: 12px;
+    flex-basis: 256px;
+
+}
+
+.leftBorder{
+    border-right: solid #7f7f7f 1px;
+}
+
+
+.MySkills{
+    background-color: #5fc68e;
+    width: 100vw;
+    padding-bottom: 48px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1600px){
+    .skillsTable{
+        flex-wrap: wrap;
+    }
+
+}

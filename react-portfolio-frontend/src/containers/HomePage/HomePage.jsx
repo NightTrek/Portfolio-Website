@@ -20,6 +20,7 @@ import TriviaGame from "../../img/TriviaGame1.png";
 import JWTIMG from "../../img/JWT-Demo.png";
 import Gallery from "../imageGallery/ImageGallery";
 import AboutMe from "../AboutMe/AboutMe";
+import Skills from "../Skills/Skills";
 class HomePage extends Component {
 
     render() {
@@ -49,6 +50,7 @@ class HomePage extends Component {
                                         buttonLink={"https://github.com/ToneDef00/bootstrap-portfolio"} buttonTxt={"Github"}/>
                 </div>
                 <AboutMe/>
+                <Skills/>
                 <div>
                     <Gallery/>
                 </div>
