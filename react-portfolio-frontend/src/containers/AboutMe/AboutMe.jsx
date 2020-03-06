@@ -39,8 +39,8 @@ class AboutMe extends Component {
                                 operate light hydrocarbon extraction equipment.
                                 During my time as a business consultant I learned the importance of good branding and
                                 automation.
-                                I quickly realized that small businesses everywhere can benifit from cheap and effective
-                                automation technology</h3>
+                                I quickly realized that small businesses everywhere can benefit from cheap and effective
+                                web technology</h3>
                         </div>
                     </div>
                 </div>
