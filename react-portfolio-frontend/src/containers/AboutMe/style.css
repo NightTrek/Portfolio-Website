@@ -3,7 +3,6 @@
     margin-top:64px;
     width: 100vw;
     background-color: #5fc68e;
-    position: relative;
 }
 
 .aboutHeader{
@@ -36,9 +35,10 @@
 
 .myface{
     margin:64px auto;
-    width: 300px;
-    transform: rotate(90deg);
+    width: 192px;
+    /*transform: rotate(90deg);*/
     border-radius: 50px;
+    overflow-x: hidden;
 }
 
 

@@ -6,7 +6,7 @@ import "../HomePage/style.css";
 import "./style.css";
 
 import me from "../../img/IMG_2031.jpg";
-
+import meto from "../../img/Buisness.png";
 
 class AboutMe extends Component {
 
@@ -38,7 +38,7 @@ class AboutMe extends Component {
                                 In my past life i worked in the chemical engineering field helping small business
                                 operate light hydrocarbon extraction equipment.
                                 During my time as a business consultant I learned the importance of good branding and
-                                automation for small business.
+                                automation.
                                 I quickly realized that small businesses everywhere can benifit from cheap and effective
                                 automation technology</h3>
                         </div>

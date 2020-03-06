@@ -11,6 +11,20 @@
     flex-wrap: wrap;
 }
 
+.Title{
+    font-weight: bolder;
+}
+
+.high-text{
+    color:#5fc68e;
+}
+
+.header-padding-2{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
 .portfolio{
     padding-bottom: 48px;
     /*border-bottom: black solid 2px;*/
@@ -27,4 +41,17 @@
 }
 .contactHeader{
     margin:32px auto;
+}
+
+
+
+@media only screen and (max-width: 550px){
+    .Title{
+        font-size: small;
+    }
+    .high-text{
+        font-size: smaller;
+    }
+
+
 }
