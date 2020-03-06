@@ -95,7 +95,7 @@ class Skills extends Component {
                             <img src={backendIcon} alt={"backend dev icon"} className={"skillIcon"} id={"backendIcon"}/>
                         </div>
                         <div className={"flexRow"}>
-                            <h2> Backend Development</h2>
+                            <h2 className={"Title"}> Backend Development</h2>
                         </div>
 
                         <br/>
