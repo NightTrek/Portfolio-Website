@@ -11,8 +11,12 @@ const ContactPage = () =>{
         return (
             <div className={"flexRow contactPanel"}>
                 <div className={"flexColumn contactPanel"}>
-                        <h2>I am actively looking for opportunities! Please feel free to contact me via the links below</h2>
-                        <h2>Email me at <span className={"email"}>Daniels@dual4t.com</span> or find me on social media</h2>
+                        <div className={"flexRow headerBox"}>
+                                <div className={"flexColumn"}>
+                                        <h2 className={"contactHeaders"}>I am actively looking for opportunities! Please feel free to contact me via the links below</h2>
+                                        <h2 className={"contactHeaders"}>Email me at <span className={"email"}>Daniels@dual4t.com</span> or find me on social media</h2>
+                                </div>
+                        </div>
                         <div className={"flexRow"}>
                                 <div className={"socialMediaButton"}>
                                         <a href={"https://github.com/ToneDef00"}><img src={githubLogo} alt={"github logo"} className={"socialimg"} /></a>

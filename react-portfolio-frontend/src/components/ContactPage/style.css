@@ -21,3 +21,29 @@
 .socialimg{
     width:128px;
 }
+.headerBox{
+    padding:16px;
+}
+
+.contactHeaders{
+    padding:16px;
+    margin:8px auto;
+}
+
+@media only screen and (max-width: 1400px){
+    .contactHeaders{
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .contactHeaders{
+        font-size: small;
+    }
+    .socialimg{
+        width: 64px;
+    }
+    .email{
+        font-size: medium;
+    }
+}
