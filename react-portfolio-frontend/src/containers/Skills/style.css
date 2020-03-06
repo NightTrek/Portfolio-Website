@@ -91,6 +91,9 @@
     color:white;
     background-color: #5fc68e;
 }
+.skillSwitchButtons:focus{
+    outline: none;
+}
 
 #nextButton{
     border-top-right-radius: 20px;
