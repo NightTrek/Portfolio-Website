@@ -65,6 +65,7 @@
 
 .skillIcon{
     width: 40%;
+    heigh:40%;
 }
 
 .skillCatagory{
@@ -162,6 +163,7 @@
     }
     .skillIcon{
         width: 40%;
+        height: 40%;
     }
     .skillSwitchButtons{
         width: 32px;
