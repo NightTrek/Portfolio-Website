@@ -76,6 +76,7 @@ class Skills extends Component {
                                     <li>React.js</li>
                                     <li>JQuery</li>
                                     <li>Redux</li>
+                                    <li>FlexBox</li>
                                 </ul>
                                 <h3 className={"high-text"}> Skills I'm learning</h3>
                                 <ul className={"skillList"}>
