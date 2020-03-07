@@ -6,7 +6,6 @@ import "../HomePage/style.css";
 import "./style.css";
 
 import me from "../../img/IMG_2031.jpg";
-import meto from "../../img/Buisness.png";
 
 class AboutMe extends Component {
 
